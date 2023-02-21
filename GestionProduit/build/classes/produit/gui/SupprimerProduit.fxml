@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="produit.gui.SupprimerProduitController">
+   <children>
+      <TextField fx:id="tfidProduit" layoutX="197.0" layoutY="175.0" />
+      <Label layoutX="121.0" layoutY="180.0" text="idProduit" />
+      <Button layoutX="236.0" layoutY="223.0" mnemonicParsing="false" onAction="#supprimerProduit" text="Supprimer" />
+   </children>
+</AnchorPane>
